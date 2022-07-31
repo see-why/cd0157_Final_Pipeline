@@ -9,7 +9,7 @@ Parameters:
   EksClusterName:
     Type: String
     Description: TODO - The name of the EKS cluster created
-    Default: eksctl-demo
+    Default: eksctl-demo2
     MinLength: 1
     MaxLength: 100
     ConstraintDescription: You must enter the EKS cluster name
@@ -40,7 +40,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: SudKul
+    Default: see-why
     Description: TODO - GitHub username or organization
     MinLength: 3
     MaxLength: 100
